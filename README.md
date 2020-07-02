@@ -2,7 +2,7 @@
 
 Pull the container and copy the Android NDK files necessary to build Android projects with magnum.
 ```
-docker pull boonto/magnum-android:v2019.10-24
+docker pull boonto/magnum-android:v2020.06-24
 docker create --name magnum-android boonto/magnum-android
 docker cp magnum-android:/opt/android-ndk .
 ```
